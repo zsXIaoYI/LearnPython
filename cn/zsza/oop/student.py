@@ -5,7 +5,7 @@
 
 class Student(object):
     # 注意init的拼写，否则报错: TypeError: Student() takes no arguments
-    # __init__：构造函数
+    # __init__：构造函数,self类似于java中的this
     def __init__(self, name, age):
         self.name = name
         self.age = age
