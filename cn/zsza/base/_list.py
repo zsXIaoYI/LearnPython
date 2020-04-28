@@ -75,3 +75,5 @@ _L4 = ['Hello', 'Apple', 18, 'World', None]
 # 过滤出上述list中的字符串，并并字符串都改成小写，最后组装成一个新的list
 _L5 = [i.lower() for i in _L4 if isinstance(i, str)]
 print('过滤后:', _L5)
+
+print(['-' * 3 for i in range(3)])
