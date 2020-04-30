@@ -5,6 +5,7 @@
 # set类似于Java中的HashSet
 # 多次对一个key放入value,会覆盖之前的value
 # 在Python中，字符串、整数都是不可变的
+# Python中的set可以使用{}或set()函数声明
 
 print('>>>>>>>>>>>>>>>>>> set集合 <<<<<<<<<<<<<<<<<<<\n')
 # set集合元素不能重复,要创建一个set，需要提供一个list作为输入集合
@@ -34,7 +35,9 @@ print('after update:', s1)
 # _s2 = set([(1, 2, [1, 2]), (2, 3, [6, 8])])
 # print('_s2:', _s2)
 
-_s1 = set([(1, 2, 3), (2, 3, 4)])
+_s1 = {(1, 2, 3), (2, 3, 4)}
 print('_s1:', _s1)
+print(isinstance(_s1, set))
+
 
 
