@@ -6,6 +6,7 @@
 # >>>>>>>>>>>>>>>>Python中的list学习<<<<<<<<<<<<<<<<<<
 # list是一个可变的有序列表，类似于Java中的list
 # list可用-1位置取最后一个元素
+# reverse():逆序排列
 
 stu = ['Amy', 'Jack', 'Bob']
 print('stu:', stu)
@@ -53,23 +54,6 @@ print('L2', L2)
 print('L2的长度:', len(L2))  # L2的长度为3
 
 empty_L = []   # 声明一个空的list,其长度为0
-
-
-# list高级特性:切片
-# list[start:end:step],步长默认为1
-# list可以进修切片,如果第一个索引为0,还可以省略
-L3 = ['Amy', 'Jack', 'Jenny']
-print('取L3的前两个元素:', L3[0:2])
-print(L3[:2])
-
-print('L3最后两个元素', L3[-2:])
-
-l4 = [1, 2, 3, 4, 5, 6]
-print('l4中,从零开始,每隔两个取一个元素:', l4[::2])
-print('l4:', l4[:2])
-
-l4.reverse()
-print('l4逆序:', l4)
 
 _L4 = ['Hello', 'Apple', 18, 'World', None]
 # 过滤出上述list中的字符串，并并字符串都改成小写，最后组装成一个新的list

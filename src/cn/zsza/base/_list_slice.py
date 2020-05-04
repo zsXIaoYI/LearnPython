@@ -4,6 +4,19 @@
 # __author__ = 'zs'
 
 
+# list高级特性:切片
+# list[start:end:step],步长默认为1
+# list可以进修切片,如果第一个索引为0,还可以省略
+L3 = ['Amy', 'Jack', 'Jenny']
+print('取L3的前两个元素:', L3[0:2])
+print(L3[:2])
+print('L3最后两个元素', L3[-2:])
+
+l4 = [1, 2, 3, 4, 5, 6]
+print('l4中,从零开始,每隔两个取一个元素:', l4[::2])
+print('l4中取第0个和第1个元素:', l4[:2])
+
+
 # list可以进行切片操作,list[start:end],从start开始，不包括end
 list_one = [0, 1, 2, 3, 4, 5, 6, 7]
 print('第2至第5个元素:', list_one[2:5])
