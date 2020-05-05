@@ -7,6 +7,11 @@
 # list高级特性:切片
 # list[start:end:step],步长默认为1
 # list可以进修切片,如果第一个索引为0,还可以省略
+L1 = [1, 2, 3]
+print(L1[:])   # 返回[1, 2, 3]
+print(L1[::])  # 返回[1, 2, 3]
+print(L1[:-1])   # 返回[1, 2]
+
 L3 = ['Amy', 'Jack', 'Jenny']
 print('取L3的前两个元素:', L3[0:2])
 print(L3[:2])
