@@ -46,3 +46,11 @@ def find_max_and_min(param_list):
             mi = li
     return mi, ma
 
+
+if __name__ == '__main__':
+    s1 = '  abc '
+    print(len(s1))
+    s1 = str_trim(s1)
+    print('after trim, s1 length:', len(s1))
+
+    print(find_max_and_min([6, 4, 12, 3, 9, 20]))
