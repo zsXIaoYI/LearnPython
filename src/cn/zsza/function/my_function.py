@@ -111,5 +111,6 @@ def print_two(name, *, city, job):
 
 # 带有可变参数，命名关键字的函数
 # *args的参数后面为命名关键字的参数，args是个tuple类型
+# 调用的时候"city="不能省略
 def print_three(name, *args, city):
     print(name, args, city)
