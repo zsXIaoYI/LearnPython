@@ -52,7 +52,7 @@ def power(x):
 
 
 # 求x的n次幂，x和n也称作位置参数
-# n声明为2，则称为默认参数
+# n声明为2，则称为默认参数,默认参数必须在位置参数后面
 def power_n(x, n=2):
     result = 1
     while n > 0:
