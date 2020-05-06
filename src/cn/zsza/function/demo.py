@@ -47,10 +47,23 @@ def find_max_and_min(param_list):
     return mi, ma
 
 
+# 求二进制数的十进制
+def binary_to_decimal(in_binary):
+    res = 0
+    while in_binary != '':
+        res = res * 2 + (ord(in_binary[0]) - ord('0'))
+        in_binary = in_binary[1:]
+    return res
+
+
 if __name__ == '__main__':
     s1 = '  abc '
     print(len(s1))
     s1 = str_trim(s1)
     print('after trim, s1 length:', len(s1))
-
     print(find_max_and_min([6, 4, 12, 3, 9, 20]))
+
+    print('1011转10进制:', binary_to_decimal('1101'))
+
+
+
