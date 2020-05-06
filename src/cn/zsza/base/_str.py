@@ -58,10 +58,3 @@ df
 gh"""
 print(s3)
 
-# 求二进制数的十进制
-B = '1101'
-res = 0
-while B != '':
-    res = res * 2 + (ord(B[0]) - ord('0'))
-    B = B[1:]
-print(res)
