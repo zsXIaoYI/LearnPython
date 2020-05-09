@@ -58,3 +58,6 @@ df
 gh"""
 print(s3)
 
+
+# rstrip()方法去除最后面的字符，默认去除字符串后面的空格
+print('make it!66'.rstrip('6'))
