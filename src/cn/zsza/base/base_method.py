@@ -4,6 +4,8 @@
 # __author__ = 'zs'
 
 # 字符转ASCII值
+from math import sqrt
+
 p1 = ord('A')
 print('A的ASCII值为:', p1)
 
@@ -39,9 +41,6 @@ r = (g2 - g1) / g1 * 100
 res = '{0}成绩提升了{1:.2f}%'.format('小明', r)
 print(res)
 
-
-
-
 r1 = abs(-12)
 print('-12的绝对值:', r1)
 
@@ -52,3 +51,4 @@ print('字符串转整型:', int('156'))
 print('浮点型转整型:', int(12.36))
 print('整型转换成字符串:', str(102))
 
+print(sqrt(2))  # 开方
